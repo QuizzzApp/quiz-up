@@ -2,11 +2,11 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="bg-blue-400 w-auto h-screen">
-      <div class='inline-block justify-center items-center m-10 p-10'>
-        <h1 class=" font-extrabold text-9xl m-4">Revision</h1>
-        <p class='text-3xl m-5'>Practice questions and be graded in the comfort of your bed</p>
-        <button class='bg-black p-4 m-5 items-center'>Get Started</button>
+    <div className="flex-grow items-center bg-blue-400 w-auto">
+      <div class='inline-block justify-center items-center md:m-10 p-10'>
+        <h1 class=" font-extrabold text-5xl md:text-9xl my-4 md:m-4">Revision</h1>
+        <p class='md:text-3xl text-xl mx-auto my-auto md:m-5'>Practice questions and be graded in the comfort of your bed</p>
+        <button class='bg-black hover:bg-blue-600 hover:duration-300 p-4 m-5 font-bold items-center rounded-full'>Get Started</button>
       </div>
     </div>
   );
