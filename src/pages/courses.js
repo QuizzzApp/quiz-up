@@ -1,11 +1,8 @@
-import Head from 'next/head'
-import {Inter} from 'next/font/google'
-import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
+import Head from 'next/head'
 
-const inter = Inter({subsets: ['latin']})
 
-export default function Home() {
+export default function Courses() {
     return (
         <>
             <Head>
@@ -16,7 +13,6 @@ export default function Home() {
             </Head>
             <main className="min-h-screen flex flex-col font-nunito text-white">
             <Navbar />
-            <Hero />
             </main>
         </>
     )
